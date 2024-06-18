@@ -3,25 +3,44 @@
   background-color: rgb(54, 54, 54);
 }
 .movieName{
-  height: 4rem;
-  margin-left: 3rem;
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-left: 5rem;
+  
+ 
+}
+.footlogo{
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
  
 }
 @media screen and (max-width: 768px) {
   .movieName{
-      height: 5rem;
-      padding: 0;
-      margin: 0;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 0;
+
      
+  }
+  .footlogo{
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+   
   }
 }
 .possition{
   justify-content: center;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 .possition1{
   justify-content: center;
-  margin: 2rem;
+  margin-top: 2rem;
   color: white;
   
 }
@@ -153,7 +172,7 @@ cursor: pointer;
   }
   .card {
 
-      width: 160px;
+      width: 170px;
       border-radius: 0.5rem;
       margin-left: 0.3rem;
       margin-top: 1rem;

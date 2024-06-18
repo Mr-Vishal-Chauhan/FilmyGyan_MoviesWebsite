@@ -33,7 +33,7 @@ export default function Main(){
                         <div class="card">
                         <Link to={`/Download/${val.title}`}><img src={val.Poster} alt="card1" class="card-img" /></Link>
                         <div className="title">
-                          <Link to={`/Download/${val.title}`}><p class="card-info">Download {val.title} (1995) Dual Audio [Hindi + English] WeB-DL 480p [300MB] | 720p [800MB] | 1080p [1.7GB]</p></Link>
+                          <Link to={`/Download/${val.title}`}><p class="card-info">Download {val.title} ({val.Year}) Dual Audio [Hindi + English] WeB-DL 480p [300MB] | 720p [800MB] | 1080p [1.7GB]</p></Link>
                         </div>
                         </div>
                         </>

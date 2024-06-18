@@ -31,9 +31,9 @@ export default function SingleMovies(){
                     
                 </div>
                 <div className="row">
-                    <div className="text-warning syn my-3">:SCREENSHOTS:</div>
-                   <img src="/assets/images/screen.png"/>
-                   <img className="my-4"  src="/assets/images/screen1.png"/>
+                    <div className="text-warning syn my-3">-:SCREENSHOTS:-</div>
+                   <img src="https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFjUklPr0_zivgRaxJuZ8pvkfTQuAZyn4KPSgVTxj98vZdT7tiSLKaAOp6dBheMduLMGl3SwBRS94FGhz34RuQhIzLNF-0XH0YLcQuFhrC0AN1ShpqhjxnozCmHaMAJJKSCtk6HxCYUSpbheC5aHd1HD5GAYZuTDU4iS-1_ojW3W9fXv_btpPA1Si4FAAs/s1600/vlcsnap-2024-06-16-03h21m24s942.png?auth_user=0" alt="screenshot"/>
+                   <img className="my-4"  src="https://i0.wp.com/blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdc9dfRz9NFDMEfZqW2CQD9J39Yw9NIosYzJyaEqwTar72absnHuxUBgbI3Uub_BMP1Fpg0i8tWqGYHZW7d14rwf3G56dwyCV49Bxsmx-TyiQZ-SG2v-eCjq7NvOrjVt_yvSh4BIJuWb5lJXSAfxAEUtP3vtWpzP_Jku34KRTwFvcsuy3tgZ9MzGfWQLPA/s1600/vlcsnap-2024-06-16-03h21m26s674.png?auth_user=0" alt="screenshot"/>
                     
                 </div>
                 <div className="row text-light">

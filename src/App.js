@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom'; 
+import {Routes,Route, HashRouter } from 'react-router-dom'; 
 import Main from './Pages/Main';
 import Anime from './Pages/Anime';
 import SingleMovies from './Pages/SingleMovies';
@@ -10,7 +10,7 @@ import Master from './components/Master';
 import Server from './Pages/Server';
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
         <Route path={"/*"} element={<Server/>}/>
         <Route path={"/"} element={<Master/>}> 
@@ -22,7 +22,7 @@ function App() {
         
        </Route>
        </Routes>
-       </BrowserRouter>
+       </HashRouter>
   );
 }
 

@@ -4,8 +4,8 @@ export default function Header() {
 	return (
 		<>
 		 <div className="container-fluid">
-		 <div className="row">
-			<img className="col-md-3 movieName" src="/assets/images/vegav2.png"/> </div>
+		 <div className=" container row">
+			<div className="col-md-3 movieName mt-3 text-light" >Filmy<span className="text-primary">Gyan</span></div> </div>
 			<div className="row text-light possition options"> 
 				<div className="col-md-1 option">HOME</div>
 				<div className="col-md-1 option">Bollywood</div>
